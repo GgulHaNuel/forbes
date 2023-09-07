@@ -578,7 +578,6 @@
 
 .sc_video .video_slider .video_arrowsbox {
     width: 100%;
-    max-width: 1080px;
     height: auto;
     position: relative;
     margin: 0 auto;
@@ -597,6 +596,7 @@
     -moz-box-pack: right;
     -ms-flex-pack: right;
     justify-content: right;
+    padding: 0 21vw;
     gap: 12px;
 }
 
@@ -642,7 +642,7 @@
 }
 
 .sc_video .video_slider .video_sliderbox .video_slide {
-    width: 100%;
+    width: auto;
     height: auto;
     position: relative;
     text-align: center;

@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         let VIDEOSLIDERBOX = $('.video_sliderbox').slick({
             centerMode: true,
-            centerPadding: '360px',
+            centerPadding: '19vw',
             infinite: true,
             autoplay: true,
             autoplaySpeed: 5000,
