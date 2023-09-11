@@ -222,12 +222,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
         honor_member.forEach(function (link) {
             link.addEventListener('click', function () {
-                honor_modal.fadeIn();
+                honor_modal.show();
             });
         });
 
         modal_close.addEventListener('click', function () {
-            honor_modal.fadeOut();
+            honor_modal.hide();
         });
     }
     HONORCLICK();
@@ -238,11 +238,11 @@ document.addEventListener('DOMContentLoaded', function () {
         const spon_close = $('.sponsor_close > button');
 
         spon_box.click(function () {
-            spon_modal.fadeIn();
+            spon_modal.show();
         });
 
         spon_close.click(function () {
-            spon_modal.fadeOut();
+            spon_modal.hide();
         });
     }
     SPONSORCLICK();
