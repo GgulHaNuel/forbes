@@ -2299,9 +2299,9 @@
     }
 
     .sponsor_modal .sponsor_modalbox .sponsor_txtbox {
-        height: -webkit-calc(100vh - 200px);
-        height: -moz-calc(100vh - 200px);
-        height: calc(100vh - 200px);
+        height: -webkit-calc(100vh - 250px);
+        height: -moz-calc(100vh - 250px);
+        height: calc(100vh - 250px);
         padding: 20px 20px 50px;
     }
 }
