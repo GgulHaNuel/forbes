@@ -57,6 +57,28 @@
     height: 90px;
 }
 
+@media all and (max-width: 1441px) {
+    #new_hd .hd_size {
+        padding: 0 30px;
+        height: 100px;
+    }
+
+    #new_hd.active .hd_size {
+        height: 80px;
+    }
+}
+
+@media all and (max-width: 481px) {
+    #new_hd .hd_size {
+        padding: 0 15px;
+        height: 80px;
+    }
+
+    #new_hd.active .hd_size {
+        height: 60px;
+    }
+}
+
 /* HEADER SETTING END */
 
 /* HEADER MENUBAR */
@@ -76,6 +98,27 @@
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
+}
+
+@media all and (max-width: 1281px) {
+    #new_hd .menu_bar {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media all and (max-width: 621px) {
+    #new_hd .menu_bar {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media all and (max-width: 481px) {
+    #new_hd .menu_bar {
+        width: 24px;
+        height: 24px;
+    }
 }
 
 /* HEADER MENUBAR END */
@@ -111,6 +154,32 @@
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
+}
+
+@media all and (max-width: 1441px) {
+    #new_hd .hd_logo {
+        height: 65px;
+    }
+
+    #new_hd.active .hd_logo {
+        height: 50px;
+    }
+}
+
+@media all and (max-width: 621px) {
+    #new_hd .hd_logo {
+        height: 55px;
+    }
+}
+
+@media all and (max-width: 481px) {
+    #new_hd .hd_logo {
+        height: 50px;
+    }
+
+    #new_hd.active .hd_logo {
+        height: 40px;
+    }
 }
 
 /* HEADER LOGO END */
@@ -160,6 +229,28 @@
 
 #new_hd .hd_snsbox .sns_item.twit_sns > a {
     background-image: url(../img/twitter_icon.png);
+}
+
+@media all and (max-width: 621px) {
+    #new_hd .hd_snsbox {
+        gap: 15px;
+    }
+
+    #new_hd .hd_snsbox .sns_item {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media all and (max-width: 481px) {
+    #new_hd .hd_snsbox {
+        gap: 10px;
+    }
+
+    #new_hd .hd_snsbox .sns_item {
+        width: 20px;
+        height: 20px;
+    }
 }
 
 /* HEADER SNS END */
@@ -277,6 +368,183 @@
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
+}
+
+.sitemenu .sitemenu_box .sitemap_snsbox {
+    width: auto;
+    height: auto;
+    position: relative;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+    display: none;
+}
+
+.sitemenu .sitemenu_box .sitemap_snsbox .sns_item {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.sitemenu .sitemenu_box .sitemap_snsbox .sns_item > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.sitemenu .sitemenu_box .sitemap_snsbox .sns_item.youtube_sns > a {
+    background-image: url(../img/youtube_icon.png);
+}
+
+.sitemenu .sitemenu_box .sitemap_snsbox .sns_item.insta_sns > a {
+    background-image: url(../img/instagram_icon.png);
+}
+
+.sitemenu .sitemenu_box .sitemap_snsbox .sns_item.twit_sns > a {
+    background-image: url(../img/twitter_icon.png);
+}
+
+@media all and (max-width: 1441px) {
+    .sitemenu .sitemenu_box .menu_logo {
+        height: 100px;
+        margin-bottom: 50px;
+    }
+
+    .sitemenu .sitemenu_box .menu_box > li > a {
+        font-size: 3.125rem;
+        line-height: 40px;
+    }
+
+    .sitemenu .sitemenu_box .menu_close {
+        width: 40px;
+        height: 40px;
+        margin-top: 50px;
+    }
+}
+
+@media all and (max-width: 1281px) {
+    .sitemenu .sitemenu_box {
+        padding-top: 80px;
+    }
+
+    .sitemenu .sitemenu_box .menu_logo {
+        height: 90px;
+    }
+
+    .sitemenu .sitemenu_box .menu_box > li {
+        margin-bottom: 20px;
+    }
+
+    .sitemenu .sitemenu_box .menu_box > li > a {
+        font-size: 2.5rem;
+    }
+}
+
+@media all and (max-width: 885px) {
+    .sitemenu .sitemenu_box .menu_logo {
+        margin-bottom: 50px;
+    }
+
+    .sitemenu .sitemenu_box .menu_box > li {
+        margin-bottom: 20px;
+    }
+
+    .sitemenu .sitemenu_box .menu_box > li > a {
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+
+    .sitemenu .sitemenu_box .menu_close {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 80px;
+        right: 30px;
+        margin-top: 0;
+    }
+
+    .sitemenu .sitemenu_box .sitemap_snsbox {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media all and (max-width: 481px) {
+    .sitemenu .sitemenu_box {
+        padding-top: 60px;
+    }
+
+    .sitemenu .sitemenu_box .menu_close {
+        width: 24px;
+        height: 24px;
+        top: 60px;
+        right: 15px;
+    }
+
+    .sitemenu .sitemenu_box .menu_box > li > a {
+        font-size: 1.875rem;
+        line-height: 30px;
+    }
+
+    .sitemenu .sitemenu_box .sitemap_snsbox {
+        margin-top: 60px;
+    }
+
+    .sitemenu .sitemenu_box .sitemap_snsbox .sns_item {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media all and (max-width: 321px) {
+    .sitemenu .sitemenu_box {
+        padding-top: 40px;
+    }
+
+    .sitemenu .sitemenu_box .menu_close {
+        top: 40px;
+    }
+
+    .sitemenu .sitemenu_box .menu_logo {
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .sitemenu .sitemenu_box .menu_box > li {
+        margin-bottom: 15px;
+    }
+
+    .sitemenu .sitemenu_box .menu_box > li > a {
+        font-size: 1.5rem;
+        line-height: 24px;
+    }
+
+    .sitemenu .sitemenu_box .sitemap_snsbox {
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    .sitemenu .sitemenu_box .sitemap_snsbox .sns_item {
+        width: 20px;
+        height: 20px;
+    }
 }
 
 /* SITEMENU END */

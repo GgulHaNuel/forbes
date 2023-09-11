@@ -1,1 +1,98 @@
 @charset "UTF-8";
+
+#new_ft {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 120px 30px 140px;
+    text-align: center;
+}
+
+#new_ft .ft_con .ft_logo {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#new_ft .ft_con .ft_logo > img {
+    width: auto;
+    max-width: 100%;
+}
+
+#new_ft .ft_con > p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #131313;
+    letter-spacing: -.5px;
+    line-height: 30px;
+}
+
+@media all and (max-width: 1441px) {
+    #new_ft .ft_con {
+        padding: 100px 30px;
+    }
+
+    #new_ft .ft_con > p {
+        font-size: 1.125rem;
+        font-weight: 300;
+    }
+}
+
+@media all and (max-width: 885px) {
+    #new_ft .ft_con {
+        padding: 80px 30px;
+    }
+
+    #new_ft .ft_con .ft_logo {
+        width: 100%;
+        max-width: 120px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    #new_ft .ft_con > p {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+}
+
+@media all and (max-width: 481px) {
+    #new_ft .ft_con {
+        padding: 60px 15px;
+    }
+
+    #new_ft .ft_con .ft_logo {
+        width: 100%;
+        max-width: 82px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    #new_ft .ft_con > p {
+        font-size: 0.875rem;
+        line-height: 23px;
+    }
+}
+
+@media all and (max-width: 321px) {
+    #new_ft .ft_con .ft_logo {
+        margin-bottom: 15px;
+    }
+
+    #new_ft .ft_con > p {
+        font-size: 0.75rem;
+    }
+}

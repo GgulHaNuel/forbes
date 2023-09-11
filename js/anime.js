@@ -19,6 +19,7 @@ const AniXGt = selectAll('.aniXGt');
 const AniXLtD = selectAll('.aniXLtD');
 const AniXLtD_2 = selectAll('.aniXLtD_2');
 const AniRot = selectAll('.aniRot');
+const AniScal = selectAll('.aniScal');
 
 AniYTopD.forEach((content, index) => {
     gsap.from(content, {
@@ -95,12 +96,12 @@ AniXLt.forEach((content) => {
 AniRot.forEach((content) => {
     gsap.from(content, {
         opacity: 1,
-        rotation: 320,
+        rotation: 360,
         ease: 'power3.out',
         duration: 2,
         scrollTrigger: {
             trigger: SCABOUT,
-            start: 'top 80%',
+            start: 'top 100%',
             end: 'bottom 20%',
             markers: false,
             toggleActions: 'play none none none',
@@ -109,3 +110,19 @@ AniRot.forEach((content) => {
     });
 });
 
+AniScal.forEach((content) => {
+    gsap.from(content, {
+        opacity: 0,
+        scale: 0.5,
+        ease: 'power3.out',
+        duration: 2,
+        scrollTrigger: {
+            trigger: content,
+            start: 'top 80%',
+            end: 'bottom 20%',
+            markers: false,
+            toggleActions: 'play none none none',
+            scrub: true,
+        },
+    });
+});
